@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for CapyBot, a community management and moderation bot for Root.">
+  <title>CapyBot — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111315;
+      --surface: #191c20;
+      --text: #f1f1ed;
+      --muted: #b7b9b5;
+      --accent: #e9e5d8;
+      --border: #30343a;
+      --link: #d9d4c5;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: radial-gradient(ellipse at top, #24272b 0%, var(--bg) 48rem);
+      color: var(--text);
+      font: 16px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .container { width: min(900px, calc(100% - 2rem)); margin: 0 auto; padding: 4rem 0 3rem; }
+    header { padding: 2.25rem; border: 1px solid var(--border); background: rgba(25, 28, 32, .88); border-radius: 20px; margin-bottom: 1.5rem; }
+    .eyebrow { color: var(--muted); text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; font-weight: 700; }
+    h1 { margin: .35rem 0 .5rem; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.15; letter-spacing: -.04em; }
+    .subtitle { margin: 0; color: var(--muted); }
+    .updated { display: inline-block; margin-top: 1.25rem; padding: .35rem .7rem; border: 1px solid var(--border); border-radius: 999px; color: var(--accent); font-size: .88rem; }
+    main { padding: 2rem clamp(1.25rem, 4vw, 2.5rem); border: 1px solid var(--border); border-radius: 20px; background: rgba(25, 28, 32, .88); }
+    h2 { margin: 2.25rem 0 .65rem; font-size: 1.35rem; letter-spacing: -.015em; line-height: 1.35; }
+    h2:first-child { margin-top: 0; }
+    h3 { margin: 1.25rem 0 .4rem; font-size: 1.05rem; }
+    p { margin: .6rem 0 1rem; }
+    ul { padding-left: 1.35rem; margin: .5rem 0 1rem; }
+    li { padding-left: .2rem; margin: .25rem 0; }
+    a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #fff; }
+    .notice { margin-top: 2rem; padding: 1rem 1.1rem; border-left: 3px solid var(--accent); background: #22252a; color: var(--muted); border-radius: 0 10px 10px 0; }
+    footer { color: var(--muted); text-align: center; font-size: .9rem; padding: 1.5rem .5rem 0; }
+    code { color: var(--accent); }
+    @media (max-width: 600px) {
+      .container { padding-top: 1.25rem; }
+      header { padding: 1.4rem; border-radius: 14px; }
+      main { padding: 1.35rem; border-radius: 14px; }
+    }
+    @media print {
+      :root { color-scheme: light; --bg: #fff; --surface: #fff; --text: #111; --muted: #444; --accent: #333; --border: #ddd; --link: #222; }
+      body { background: #fff; color: #111; }
+      header, main { background: #fff; border-color: #ddd; }
+      .notice { background: #f5f5f5; }
+      a { color: #111; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">CapyBot · Root Community Bot</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">How CapyBot may process, use, and protect information when providing community management and moderation features.</p>
+      <div class="updated">Last updated: October 19, 2026</div>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Introduction</h2>
+        <p>CapyBot ("the Bot", "we", "our", or "us") is a community management and moderation bot designed for the Root platform. Its purpose is to help community owners and moderators maintain safe, organized, and welcoming communities through automated moderation, member management, role assignment, announcements, and related tools.</p>
+        <p>This Privacy Policy explains what information CapyBot may process, how that information is used, how it is stored, and what choices community members and administrators have regarding their information.</p>
+        <p>By using a community in which CapyBot is enabled, you acknowledge that the Bot may process information as described in this policy and in accordance with the settings configured by the community's administrators.</p>
+      </section>
+
+      <section>
+        <h2>2. Information We Collect and Process</h2>
+        <p>CapyBot processes only the information reasonably necessary to provide its enabled features. Depending on the features enabled by a community administrator, this may include:</p>
+        <h3>2.1. Member and Community Information</h3>
+        <ul>
+          <li>Root user IDs and community IDs.</li>
+          <li>Usernames, display names, or other basic profile information made available by Root.</li>
+          <li>Role IDs and role assignments relevant to the Bot's functionality.</li>
+          <li>Channel IDs and other community configuration information.</li>
+        </ul>
+        <p>This information is used to identify members, apply role mappings, enforce permissions, and provide community management functionality.</p>
+
+        <h3>2.2. Message Content</h3>
+        <p>CapyBot may process messages to provide automated moderation and command functionality, including:</p>
+        <ul>
+          <li>Detecting configured Arabic profanity, insults, and abusive language.</li>
+          <li>Detecting spam, repeated messages, excessive mentions, and prohibited links when those features are enabled.</li>
+          <li>Processing commands issued by members or moderators.</li>
+          <li>Identifying messages that require moderation.</li>
+        </ul>
+        <p>When moderation occurs, the Bot may record relevant information, such as the message ID, channel ID, member ID, detected rule, reason for the action, and moderation outcome.</p>
+        <p>Message content is processed only as necessary for the enabled features. The Bot is not intended to maintain a permanent archive of every message by default. Any message content stored in moderation records must be limited to what the implemented features and configured moderation policies require.</p>
+
+        <h3>2.3. Warnings and Moderation Records</h3>
+        <p>When a warning or other moderation action is recorded, CapyBot may store:</p>
+        <ul>
+          <li>The affected member's ID.</li>
+          <li>The moderator's ID or an indication that an automated action was responsible.</li>
+          <li>The reason for the action.</li>
+          <li>The date and time of the action.</li>
+          <li>The associated message or channel ID, where available.</li>
+          <li>The type, severity, and outcome of the action.</li>
+        </ul>
+        <p>These records help moderators review previous incidents, enforce community rules consistently, and investigate repeated violations.</p>
+
+        <h3>2.4. Reaction Roles</h3>
+        <p>When reaction roles are enabled, CapyBot processes relevant reaction events and may retain mappings between message IDs, emoji identifiers, role IDs, and community IDs. This information is used to assign or remove roles according to the community's configuration.</p>
+
+        <h3>2.5. Voice Channel Information</h3>
+        <p>When voice management features are enabled, CapyBot may process information such as voice channel IDs, member IDs, and voice participation events to carry out authorized operations.</p>
+        <p>CapyBot does not intentionally record or store voice conversations or microphone audio as part of its standard voice management functionality.</p>
+
+        <h3>2.6. Webhook and Integration Data</h3>
+        <p>When external integrations or webhook-style notifications are configured, CapyBot may process relevant event payloads, delivery status information, timestamps, and integration metadata. The specific information processed depends on the external service and the integration configured by the community administrator.</p>
+        <p>Webhook secrets, authentication tokens, and other credentials must be protected and must not be unnecessarily exposed in logs or public responses.</p>
+      </section>
+
+      <section>
+        <h2>3. How We Use Information</h2>
+        <p>CapyBot may use processed information to:</p>
+        <ul>
+          <li>Welcome members and provide onboarding messages.</li>
+          <li>Manage reaction-based role assignments.</li>
+          <li>Perform authorized voice channel operations.</li>
+          <li>Detect configured prohibited language and other community rule violations.</li>
+          <li>Issue warnings and maintain moderation histories.</li>
+          <li>Detect spam and other forms of disruptive activity.</li>
+          <li>Send announcements and integration notifications.</li>
+          <li>Enforce command permissions and prevent unauthorized actions.</li>
+          <li>Diagnose errors, investigate failed operations, and maintain reliability.</li>
+          <li>Protect the Bot and its users against abuse, manipulation, and misuse.</li>
+        </ul>
+        <p>CapyBot does not sell personal information to advertisers.</p>
+      </section>
+
+      <section>
+        <h2>4. Message Moderation and Automated Decisions</h2>
+        <p>CapyBot may automatically detect content that matches configured moderation rules and take actions such as issuing a warning, recording an infraction, notifying moderators, or deleting a message where supported and authorized.</p>
+        <p>Automated language detection can make mistakes, particularly with dialects, slang, spelling variations, sarcasm, and words that have different meanings in different contexts.</p>
+        <p>Community administrators should provide a way to review moderation decisions and correct mistakes. Members who believe they have been incorrectly moderated should contact the relevant community moderators.</p>
+        <p>Automated moderation does not guarantee that every prohibited message will be detected or that every detected message is actually abusive.</p>
+      </section>
+
+      <section>
+        <h2>5. Data Storage and Retention</h2>
+        <p>CapyBot may use persistent storage to retain information needed for the Bot to function across restarts. Depending on the implementation and configuration, this may include community settings, reaction-role mappings, moderation records, and operational logs.</p>
+        <p>Information should be retained only for as long as reasonably necessary for the purposes described in this policy or as required by applicable law.</p>
+        <ul>
+          <li><strong>Configuration data:</strong> Retained while needed to provide the configured service.</li>
+          <li><strong>Moderation records:</strong> Retained according to the community's moderation and record-management policies.</li>
+          <li><strong>Operational logs:</strong> Retained only as needed for troubleshooting, reliability, security, and abuse prevention.</li>
+          <li><strong>Integration data:</strong> Retained only as needed to process and diagnose configured integrations.</li>
+        </ul>
+        <p>Where the Bot provides appropriate management controls, authorized administrators may remove outdated records or reset configuration data.</p>
+        <p>Deleting a record from CapyBot does not necessarily delete the same information held by Root or an external service. Backups may also persist for a limited period where applicable.</p>
+      </section>
+
+      <section>
+        <h2>6. Sharing and Third-Party Services</h2>
+        <p>CapyBot does not sell personal information or share it with third parties for their own advertising purposes. Information may be processed or made available to the following parties when necessary:</p>
+        <ul>
+          <li><strong>Root:</strong> The platform on which the Bot operates, including information processed through its APIs.</li>
+          <li><strong>Community administrators and moderators:</strong> Authorized personnel who can access relevant moderation records and member-management information.</li>
+          <li><strong>Hosting and infrastructure providers:</strong> Providers used to operate the Bot or its storage, where applicable.</li>
+          <li><strong>External integration providers:</strong> Services deliberately connected by an authorized community administrator.</li>
+        </ul>
+        <p>External services are subject to their own privacy policies and terms. CapyBot cannot guarantee how an independent third-party service handles information after receiving it.</p>
+        <p>We do not intentionally disclose private credentials or webhook secrets to community members.</p>
+      </section>
+
+      <section>
+        <h2>7. Data Security</h2>
+        <p>Reasonable technical and organizational safeguards should be used to protect information processed by CapyBot against unauthorized access, alteration, disclosure, or destruction.</p>
+        <p>These safeguards include, where implemented:</p>
+        <ul>
+          <li>Restricting administrative commands to authorized users.</li>
+          <li>Protecting development tokens and integration credentials.</li>
+          <li>Using appropriate access controls for stored information.</li>
+          <li>Avoiding unnecessary sensitive information in logs.</li>
+          <li>Validating commands, events, and integration payloads.</li>
+          <li>Handling errors without exposing private data.</li>
+        </ul>
+        <p>No software, infrastructure, or method of electronic storage can be guaranteed to be completely secure.</p>
+        <p>Community administrators are responsible for safeguarding their own accounts and for granting CapyBot only the permissions necessary for their chosen features.</p>
+      </section>
+
+      <section>
+        <h2>8. Your Choices and Privacy Requests</h2>
+        <p>Depending on the features available in your community, you may be able to request:</p>
+        <ul>
+          <li>Information about moderation records associated with your account.</li>
+          <li>Correction of inaccurate moderation records.</li>
+          <li>Removal of records that are no longer required, where appropriate.</li>
+          <li>Assistance with a suspected privacy or security issue.</li>
+        </ul>
+        <p>For requests relating to community-specific records, contact the community's owner or moderators first.</p>
+        <p>For issues involving CapyBot itself, contact the Bot maintainer using the contact details provided at the end of this policy.</p>
+        <p>Requests will be assessed in light of applicable law, legitimate moderation needs, platform requirements, and the information available to the Bot maintainer.</p>
+      </section>
+
+      <section>
+        <h2>9. Children's Privacy</h2>
+        <p>CapyBot is a community management tool, not a service intended to collect personal information directly from children.</p>
+        <p>The Bot does not intentionally collect additional personal information from children beyond information made available through the Root platform and information required for its configured community-management functions.</p>
+        <p>Community administrators are responsible for ensuring their communities comply with applicable age restrictions, platform rules, and legal requirements.</p>
+        <p>If you believe that information has been processed inappropriately, please contact the Bot maintainer.</p>
+      </section>
+
+      <section>
+        <h2>10. International Data Processing</h2>
+        <p>Depending on the hosting environment and third-party services used by a community, information may be processed or stored in countries other than the country in which a member resides.</p>
+        <p>Where applicable, the parties responsible for operating the Bot and its infrastructure should implement appropriate safeguards for international data transfers as required by relevant law.</p>
+      </section>
+
+      <section>
+        <h2>11. Changes to This Policy</h2>
+        <p>This Privacy Policy may be updated when CapyBot introduces new features, changes its data-processing practices, or needs to reflect legal or technical requirements.</p>
+        <p>The latest version will be published in the official CapyBot repository.</p>
+        <p>The date shown at the beginning of this document indicates when the policy was last updated. Material changes should be communicated through appropriate channels where reasonably practical.</p>
+      </section>
+
+      <section>
+        <h2>12. Contact Information</h2>
+        <p>For questions, privacy requests, or concerns relating to CapyBot, contact the maintainer through the following official channel:</p>
+        <ul>
+          <li><strong>Project:</strong> CapyBot</li>
+          <li><strong>GitHub repository:</strong> <code>[INSERT YOUR GITHUB REPOSITORY URL]</code></li>
+          <li><strong>Privacy contact:</strong> <code>[INSERT A CONTACT EMAIL OR OFFICIAL SUPPORT LINK]</code></li>
+        </ul>
+        <p>Please do not post passwords, access tokens, private messages, or other sensitive personal information in public GitHub issues.</p>
+      </section>
+
+      <div class="notice">
+        <strong>Important:</strong> This policy describes the intended operation of CapyBot and the information that its features may process. The deployed Bot's actual implementation, configuration, hosting arrangements, and retention practices determine what information is processed in practice. Review and update this document whenever those practices change.
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 CapyBot. Privacy-first community management.</p>
+    </footer>
+  </div>
+</body>
+</html>
